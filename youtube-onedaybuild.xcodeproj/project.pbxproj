@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E98C153524AC2F080090BABA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C153424AC2F080090BABA /* Response.swift */; };
 		E9BE1CAF24A9935A004E2F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE1CAE24A9935A004E2F87 /* AppDelegate.swift */; };
 		E9BE1CB124A9935A004E2F87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE1CB024A9935A004E2F87 /* ViewController.swift */; };
 		E9BE1CB424A9935A004E2F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BE1CB224A9935A004E2F87 /* Main.storyboard */; };
 		E9BE1CB624A9935C004E2F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BE1CB524A9935C004E2F87 /* Assets.xcassets */; };
 		E9BE1CB924A9935C004E2F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BE1CB724A9935C004E2F87 /* LaunchScreen.storyboard */; };
+		E9C2E4E124AA7C7B00FF0D32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2E4E024AA7C7B00FF0D32 /* Constants.swift */; };
+		E9C2E4E324AA7E5A00FF0D32 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2E4E224AA7E5A00FF0D32 /* Video.swift */; };
+		E9C2E4E524AA7E9B00FF0D32 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C2E4E424AA7E9B00FF0D32 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E98C153424AC2F080090BABA /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		E9BE1CAB24A9935A004E2F87 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BE1CAE24A9935A004E2F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9BE1CB024A9935A004E2F87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		E9BE1CB524A9935C004E2F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BE1CB824A9935C004E2F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9BE1CBA24A9935C004E2F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C2E4E024AA7C7B00FF0D32 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E9C2E4E224AA7E5A00FF0D32 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E9C2E4E424AA7E9B00FF0D32 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				E9BE1CB524A9935C004E2F87 /* Assets.xcassets */,
 				E9BE1CB724A9935C004E2F87 /* LaunchScreen.storyboard */,
 				E9BE1CBA24A9935C004E2F87 /* Info.plist */,
+				E9C2E4E024AA7C7B00FF0D32 /* Constants.swift */,
+				E9C2E4E224AA7E5A00FF0D32 /* Video.swift */,
+				E9C2E4E424AA7E9B00FF0D32 /* Model.swift */,
+				E98C153424AC2F080090BABA /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C2E4E524AA7E9B00FF0D32 /* Model.swift in Sources */,
 				E9BE1CB124A9935A004E2F87 /* ViewController.swift in Sources */,
+				E9C2E4E324AA7E5A00FF0D32 /* Video.swift in Sources */,
 				E9BE1CAF24A9935A004E2F87 /* AppDelegate.swift in Sources */,
+				E98C153524AC2F080090BABA /* Response.swift in Sources */,
+				E9C2E4E124AA7C7B00FF0D32 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
