@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94237E024ACF0C1003DA347 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94237DF24ACF0C1003DA347 /* ConstantsTemplate.swift */; };
 		E98C153524AC2F080090BABA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98C153424AC2F080090BABA /* Response.swift */; };
 		E9BE1CAF24A9935A004E2F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE1CAE24A9935A004E2F87 /* AppDelegate.swift */; };
 		E9BE1CB124A9935A004E2F87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BE1CB024A9935A004E2F87 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E94237DF24ACF0C1003DA347 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		E98C153424AC2F080090BABA /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		E9BE1CAB24A9935A004E2F87 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BE1CAE24A9935A004E2F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				E9BE1CB724A9935C004E2F87 /* LaunchScreen.storyboard */,
 				E9BE1CBA24A9935C004E2F87 /* Info.plist */,
 				E9C2E4E024AA7C7B00FF0D32 /* Constants.swift */,
+				E94237DF24ACF0C1003DA347 /* ConstantsTemplate.swift */,
 				E9C2E4E224AA7E5A00FF0D32 /* Video.swift */,
 				E9C2E4E424AA7E9B00FF0D32 /* Model.swift */,
 				E98C153424AC2F080090BABA /* Response.swift */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94237E024ACF0C1003DA347 /* ConstantsTemplate.swift in Sources */,
 				E9C2E4E524AA7E9B00FF0D32 /* Model.swift in Sources */,
 				E9BE1CB124A9935A004E2F87 /* ViewController.swift in Sources */,
 				E9C2E4E324AA7E5A00FF0D32 /* Video.swift in Sources */,
